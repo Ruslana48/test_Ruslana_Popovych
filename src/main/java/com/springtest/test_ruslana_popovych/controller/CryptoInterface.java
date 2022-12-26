@@ -5,6 +5,5 @@ import com.springtest.test_ruslana_popovych.model.CryptoModel;
 import java.util.List;
 
 public interface CryptoInterface {
-    List<CryptoModel>findAll();
-    List<CryptoModel> findAllByCurrencyPair(String pair);
+    public List<CryptoModel> sortingAndPaginationPages(String cryptoName, int page_number, int page_size);
 }

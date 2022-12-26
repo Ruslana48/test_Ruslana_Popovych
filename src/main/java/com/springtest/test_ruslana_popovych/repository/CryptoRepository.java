@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface CryptoRepository extends MongoRepository<CryptoModel,String> {
     List<CryptoModel>findAll();
+
+
 }
